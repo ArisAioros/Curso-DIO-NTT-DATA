@@ -1,2 +1,2 @@
-# Curso-NTT-DATA-DIO
+# Curso-DIO-NTT-DATA
 Estudo
