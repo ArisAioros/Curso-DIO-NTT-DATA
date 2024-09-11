@@ -18,5 +18,5 @@ print(type(valor_str))
 # Divisão de número inteiro convertido em float.
 print(100 / 2)
 
-# Divesão de número inteiro sem converção int.
+# Divesão de número inteiro sem conversão int.
 print(100 // 2)

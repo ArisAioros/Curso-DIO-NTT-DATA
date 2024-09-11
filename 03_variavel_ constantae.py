@@ -1,7 +1,7 @@
-# nome e idade em duis linha. // os parentes são opcional.
+# Nome e idade em duas linhas. // Os parentes são opcionais.
 nome = "Guilherme"
 idade = 28
-# nome e idade na linha // os parentes são opcional.
+# nome e idade na linha // os parentes são opcionais.
 nome,idade = ("giovanna", 27)
 
 print (nome,idade)

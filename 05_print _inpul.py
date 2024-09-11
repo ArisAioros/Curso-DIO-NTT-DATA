@@ -1,14 +1,14 @@
 nome = input("Informe seu nome:")
 idade = input("Informe sua idade")
 
-# Utilizando o normal
+# Utilizando o normal.
 print(nome, idade)
 
-# Utilizando só  com o end.
+# Utilizando só com o fim.
 print(nome, idade, end= "...\n")
 
-#Utilizando o separador con o end.
+# Utilizando o separador com o final.
 print(nome, idade, sep= "#", end= "...\n")
 
-# Utilizando só o  separador.
+# Utilizando apenas o separador.
 print(nome, idade, sep= "#")
