@@ -15,7 +15,7 @@ x = 10 + 5 * 4 # Utilizando regras matemática
 
 x = (10 + 5) * 4 # Adicionando regras com uso de parênteses.
 
-# y = (10 / 2) + (25 * 2) - (2 ** 2) # ordem de execução é da esquerda para a direita.
+y = (10 / 2) + (25 * 2) - (2 ** 2) # ordem de execução é da esquerda para a direita.
 
 y = (10 / 2) + 25 * ((2 - 2) ** 2) # Parenteses, ordenar regras de execução ou (mudar as ordens de regras a serem realizadas).
 
