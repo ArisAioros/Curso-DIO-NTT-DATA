@@ -12,6 +12,6 @@ def salario_bonus(bonus, lista):
     return salario
 
 
-lista = [1]
+lista = [1] # A lista 1 é um objeto imuntavel para uma função:
 salario_com_bonus = salario_bonus(500, lista) # 2500
 print(salario_com_bonus)
