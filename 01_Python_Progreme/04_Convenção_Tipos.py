@@ -1,10 +1,10 @@
 # Número float convertido para número inteiro.
 print(int(1.97348728))
 
-# Número string convertido para inteiro.
+# String convertido para número inteiro.
 print(int("10"))
 
-# Número string convertido para float.
+# String convertido para número float.
 print(float("10.10"))
 
 # Número inteiro convertido para float.
@@ -15,8 +15,8 @@ valor_str = str(valor)
 print(type(valor))
 print(type(valor_str))
 
-# Divisão de número inteiro convertido em float.
+# Divisão de número inteiro convertido em número float.
 print(100 / 2)
 
-# Divesão de número inteiro sem conversão int.
+# Divesão de número inteiro int sem conversão.
 print(100 // 2)

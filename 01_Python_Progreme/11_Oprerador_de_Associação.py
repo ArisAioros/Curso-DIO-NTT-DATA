@@ -1,4 +1,4 @@
-# Existe diferença entre letras Maiuscula e letras Minuscula
+# Existe sim, diferença entre letras, Maiuscula e letras Minuscula
 frutas = ["limão", "uva"]
 curso = ("curso de python")
 
