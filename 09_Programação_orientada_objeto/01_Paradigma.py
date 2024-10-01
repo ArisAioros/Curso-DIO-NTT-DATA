@@ -26,5 +26,5 @@ class Bicicleta:
 # print(bi.cor, bi.modelo, bi.ano, bi.valor)
 
 b2 = Bicicleta("verde", "monark", 2000, 189)
-Bicicleta.buzinar(b2)
+b2.buzinar()# Bicicleta.buzinar(b2)
 print(b2.cor)
