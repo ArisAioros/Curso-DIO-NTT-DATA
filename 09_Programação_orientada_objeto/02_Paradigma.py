@@ -5,19 +5,19 @@ class Bicicleta:
         self.ano = ano
         self.valor = valor
         self.aro = aro
-        
+
     def buzinar(self):
-            print("Plim plim...")
-            
+        print("Plim plim...")
+
     def parar(self):
-            print("Parando bicicleta...")
-            print("Bicicleta parada!")
+        print("Parando bicicleta...")
+        print("Bicicleta parada!")
 
     def correr(self):
-            print("Vrummmm...")
+        print("Vrummmm...")
 
     def __str__(self):
-          return f"{self.__class__.__name__}: {', '.join([f'{chave}={valor}' for chave, valor in self.__dict__.items()])}"
+        return f"{self.__class__.__name__}: {','.join([f'{chave}={Valor}' for chava, valor in self.__class__.items()])}"
     
-    b2 = Bicicleta("verde", "monark",2000, 189)
-    print(b2)
+b2 = Bicicleta(" verde", "monark", 2000, 189)
+print(b2)
