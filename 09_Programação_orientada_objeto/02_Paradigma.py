@@ -17,7 +17,7 @@ class Bicicleta:
         print("Vrummmm...")
 
     def __str__(self):
-        return f"{self.__class__.__name__}: {','.join([f'{chave}={Valor}' for chava, valor in self.__class__.items()])}"
+     return f"{self.__class__.__name__}: {','.join([f'{chave}={valor}' for chave, valor in self.__dict__.items()])}"
     
 b2 = Bicicleta(" verde", "monark", 2000, 189)
 print(b2)
