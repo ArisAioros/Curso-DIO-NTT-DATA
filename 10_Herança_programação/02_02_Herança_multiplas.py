@@ -23,12 +23,13 @@ class Gato(Manifero):
 
 
 class ornitorrinco(Manifero, Ave):
-    def __init__(self, cor_bico, cor_pelo, nro_patas,):
+    def __init__(self, cor_bico, cor_pelo, nro_patas):
+        super().__init__(cor_pelo=cor_pelo, cor_bico=cor_bico, nro_patas=nro_patas)
+
+
+        gato = Gato(nro_patas=4, cor_pelo="Preto")
+        print(gato)
+
+        ornitorrinco = ornitorrinco(nro_patas=2, cor_pelo="vermelho", cor_bico= "laranja")
+        print(ornitorrinco)
         
-        super().__init__(cor_pelo=cor_bico, cor_bico=cor_bico, nro_patas=nro_patas)
-
-gato = Gato(nro_patas=4, cor_pelo="Preto")
-print(gato)
-
-ornitorrinco = ornitorrinco(nro_patas=2, cor_pelo="vermelho", cor_bico="laranjar")
-print(ornitorrinco)
