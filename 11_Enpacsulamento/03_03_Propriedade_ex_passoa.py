@@ -13,5 +13,5 @@ class Passoa:
         return self._nome
         
 
-pessoa = Passoa("ArisIel", 1994)
+pessoa = Passoa("Guilherme", 1994)
 print(f"Nome: {pessoa.nome} \tIdade: {pessoa.idade}")

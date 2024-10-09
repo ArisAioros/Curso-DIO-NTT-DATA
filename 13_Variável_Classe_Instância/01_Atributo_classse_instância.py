@@ -15,11 +15,9 @@ def mostrar_valores(*objs):
 
 
 aluno_1 = Estudante("Guilherme", 1)
-aluno_2 = Estudante("giovanna", 2)
+aluno_2 = Estudante("Guilherme", 2)
 mostrar_valores(aluno_1, aluno_2)
 
 Estudante.escola = "Python"
 aluno_3 = Estudante("Chappie", 3)
 mostrar_valores(aluno_1, aluno_2, aluno_3)
-
-
