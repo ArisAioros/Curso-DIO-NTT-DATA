@@ -12,7 +12,7 @@ class ControleRemoto(ABC):
 
    
     @property
-    @abstractproperty
+
     def marca(self):# obrigatoriedade
         pass
     
